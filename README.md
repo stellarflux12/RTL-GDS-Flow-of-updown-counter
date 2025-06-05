@@ -44,6 +44,8 @@ Simulate the RTL and testbench using the following steps:
 xrun -f sim/compile_xcelium.f -access +rwc
 ```
 
+![Simulation](Screenshots/waveform.png)
+
 ## 🔧 Synthesis using Genus
 
 Run the synthesis with:
@@ -51,6 +53,8 @@ Run the synthesis with:
 ```bash
 genus -files synthesis/genus.tcl
 ```
+
+![Synthesis](Screenshots/gui_schematic.png)
 
 ### 📤 Outputs:
 - Synthesized netlist
@@ -68,6 +72,9 @@ The physical design step translates the synthesized netlist into an actual physi
 4. **Routing** – Connect all placed cells with metal layers as per DRC rules.
 5. **GDSII Export** – Generate the final GDSII file, which is sent to fabrication.
 
-![Alt text]([Screenshot/after_cts.png](https://github.com/stellarflux12/RTL-GDS-Flow-of-updown-counter/blob/main/Screenshots/after_cts.png))
+## 🖼️ After Clock Tree Synthesis
 
+This image shows the layout after CTS performed in Cadence Innovus.
+
+![After CTS](Screenshots/after_cts.png)
 
