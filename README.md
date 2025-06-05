@@ -68,5 +68,6 @@ The physical design step translates the synthesized netlist into an actual physi
 4. **Routing** – Connect all placed cells with metal layers as per DRC rules.
 5. **GDSII Export** – Generate the final GDSII file, which is sent to fabrication.
 
+![Alt text](screenshot/after_cts.png)
 
 
