@@ -56,7 +56,7 @@ genus -files synthesis/genus.tcl
 
 ![Synthesis](Screenshots/gui_schematic.gif)
 
-### 📤 Outputs:
+### Outputs:
 - Synthesized netlist
 - Timing report
 - Area report
@@ -72,7 +72,7 @@ The physical design step translates the synthesized netlist into an actual physi
 4. **Routing** – Connect all placed cells with metal layers as per DRC rules.
 5. **GDSII Export** – Generate the final GDSII file, which is sent to fabrication.
 
-## 🖼️ After Clock Tree Synthesis
+## After Clock Tree Synthesis
 
 This image shows the layout after CTS performed in Cadence Innovus.
 
