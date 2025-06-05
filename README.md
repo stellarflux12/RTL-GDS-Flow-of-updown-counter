@@ -1,6 +1,8 @@
 # 🔁 RTL to GDSII Flow of a 3-bit Up-Down Counter (Using Cadence Flow)
+## 📘 Project Overview
 
-This repository showcases the complete ASIC design flow of a **3-bit Up-Down Counter** — from RTL design to GDSII generation — using **Cadence’s industry-standard tools**.
+This repository demonstrates the complete RTL-to-GDSII flow of a 3-bit Up/Down Counter using Cadence tools at the 45nm technology node.
+
 
 ---
 
