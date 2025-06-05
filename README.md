@@ -54,7 +54,7 @@ Run the synthesis with:
 genus -files synthesis/genus.tcl
 ```
 
-![Synthesis](Screenshots/gui_schematic.png)
+![Synthesis](Screenshots/gui_schematic.gif)
 
 ### 📤 Outputs:
 - Synthesized netlist
