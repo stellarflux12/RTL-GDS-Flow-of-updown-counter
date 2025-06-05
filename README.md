@@ -1,4 +1,4 @@
-# 🔁 RTL to GDSII Flow of a 3-bit Up-Down Counter (Using Cadence Flow)
+#  RTL to GDSII Flow of a 3-bit Up-Down Counter (Using Cadence Flow)
 ## 📘 Project Overview
 
 This repository demonstrates the complete RTL-to-GDSII flow of a 3-bit Up/Down Counter using Cadence tools at the 45nm technology node.
@@ -6,7 +6,7 @@ This repository demonstrates the complete RTL-to-GDSII flow of a 3-bit Up/Down C
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a fully synchronous 3-bit Up-Down Counter, taking it through:
 
@@ -18,14 +18,14 @@ This project implements a fully synchronous 3-bit Up-Down Counter, taking it thr
 
 ---
 
-## 🔐 Functional Specs
+##  Functional Specs
 
 The Up-Down Counter:
 - Counts from 0 to 7 or 7 to 0
 - Controlled by an `up_down` signal
 - Synchronous reset
 
-### ✅ I/O Signals
+###  I/O Signals
 
 | Signal    | Direction | Description                   |
 |-----------|-----------|-------------------------------|
@@ -36,7 +36,7 @@ The Up-Down Counter:
 
 ---
 
-## 🧪 Simulation using Xcelium
+## Simulation using Xcelium
 
 Simulate the RTL and testbench using the following steps:
 
@@ -61,11 +61,11 @@ genus -files synthesis/genus.tcl
 - Timing report
 - Area report
 - Power report
-## 🏗️ Physical Design using Innovus
+##  Physical Design using Innovus
 
 The physical design step translates the synthesized netlist into an actual physical layout. This process is done using **Cadence Innovus**, and involves multiple stages:
 
-### 🧱 Key Stages:
+### Key Stages:
 1. **Floorplanning** – Define chip dimensions, core/utilization area, and pin placement.
 2. **Placement** – Position standard cells based on netlist and timing constraints.
 3. **Clock Tree Synthesis (CTS)** – Balance the clock network to reduce skew and meet timing.
